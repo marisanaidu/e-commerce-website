@@ -75,7 +75,7 @@ const BlogPost = () => {
                     alt={block.caption}
                     className="w-full rounded-2xl object-cover shadow-sm"
                     style={{ height: '360px' }}
-                    onError={(e) => { e.target.onerror = null; e.target.src = '/src/assets/necklace.png'; }}
+                    onError={(e) => { e.target.onerror = null; e.target.src = '/images/assets/necklace.png'; }}
                   />
                   <figcaption className="text-center text-sm text-silver mt-3 italic">{block.caption}</figcaption>
                 </figure>

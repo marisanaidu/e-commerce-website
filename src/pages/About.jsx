@@ -36,7 +36,7 @@ const About = () => {
             className="md:w-1/2 relative"
           >
              <div className="absolute -top-10 -left-10 w-40 h-40 bg-gold/10 rounded-full blur-3xl"></div>
-             <img src="/src/assets/hero.png" className="rounded-2xl shadow-2xl relative z-10" alt="Workshop" />
+             <img src="/images/assets/hero.png" className="rounded-2xl shadow-2xl relative z-10" alt="Workshop" />
              <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-midnight rounded-2xl -z-10"></div>
           </motion.div>
         </div>

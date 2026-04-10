@@ -32,7 +32,7 @@ const Blog = () => {
                 src={posts[0].image}
                 alt={posts[0].title}
                 className="w-full h-full object-cover absolute inset-0 transition-transform duration-1000 group-hover:scale-105"
-                onError={(e) => { e.target.onerror = null; e.target.src = '/images/assets/necklace.png'; }}
+                onError={(e) => { e.target.onerror = null; e.target.src = '/images/necklace.png'; }}
               />
               <div className="absolute top-4 left-4 border border-white/50 backdrop-blur-md bg-white/20 px-4 py-1 text-white font-bold text-xs uppercase tracking-widest rounded-full">
                 Featured Article
@@ -72,7 +72,7 @@ const Blog = () => {
                   src={post.image}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   alt={post.title}
-                  onError={(e) => { e.target.onerror = null; e.target.src = '/images/assets/bracelet.png'; }}
+                  onError={(e) => { e.target.onerror = null; e.target.src = '/images/bracelet.png'; }}
                 />
                 <div className="absolute top-4 left-4 bg-white px-3 py-1 text-midnight font-bold text-[10px] uppercase tracking-widest rounded-full shadow-sm">
                   {post.category}

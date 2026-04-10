@@ -4,7 +4,7 @@ export const products = [
     name: 'The Floral Bloom Necklace',
     price: 1250,
     category: 'Necklaces',
-    image: '/images/assets/necklace.png',
+    image: '/images/necklace.png',
     material: 'Gold',
     tag: 'Bestseller',
     description: "This handcrafted gold-plated necklace features delicate floral motifs, perfect for gifting or special occasions. Hypoallergenic and lightweight for all-day comfort. Each petal is meticulously shaped by our master artisans to capture the ephemeral beauty of spring.",
@@ -17,9 +17,9 @@ export const products = [
     reviews: 48,
     rating: 4.9,
     images: [
-      '/images/assets/necklace.png',
-      '/images/assets/hero.png',
-      '/images/assets/bracelet.png'
+      '/images/necklace.png',
+      '/images/hero.png',
+      '/images/bracelet.png'
     ]
   },
   {
@@ -27,7 +27,7 @@ export const products = [
     name: 'Dewy Petals Earrings',
     price: 850,
     category: 'Earrings',
-    image: '/images/assets/earrings.png',
+    image: '/images/earrings.png',
     material: 'Silver',
     tag: 'New Arrival',
     description: "Elegant sterling silver earrings featuring sparkling accents reminiscent of morning dew. These versatile pieces transition seamlessly from daywear to evening elegance.",
@@ -40,9 +40,9 @@ export const products = [
     reviews: 32,
     rating: 4.8,
     images: [
-      '/images/assets/earrings.png',
-      '/images/assets/necklace.png',
-      '/images/assets/earrings.png'
+      '/images/earrings.png',
+      '/images/necklace.png',
+      '/images/earrings.png'
     ]
   },
   {
@@ -50,7 +50,7 @@ export const products = [
     name: 'Ethereal Glow Coral Ring',
     price: 1100,
     category: 'Rings',
-    image: '/images/assets/ring.png',
+    image: '/images/ring.png',
     material: 'Coral/Gold',
     tag: 'Limited Edition',
     description: "A stunning statement ring showcasing a brilliantly colored centerpiece set within intricate gold bands. Designed to capture and reflect light from every angle.",
@@ -63,9 +63,9 @@ export const products = [
     reviews: 15,
     rating: 5.0,
     images: [
-      '/images/assets/ring.png',
-      '/images/assets/bracelet.png',
-      '/images/assets/ring.png'
+      '/images/ring.png',
+      '/images/bracelet.png',
+      '/images/ring.png'
     ]
   },
   {
@@ -73,7 +73,7 @@ export const products = [
     name: 'Golden Thread Bracelet',
     price: 950,
     category: 'Bracelets',
-    image: '/images/assets/bracelet.png',
+    image: '/images/bracelet.png',
     material: 'Gold',
     tag: null,
     description: "A delicate minimalist bracelet crafted from fine golden threads, intertwining to create a timeless piece for everyday wear.",
@@ -86,9 +86,9 @@ export const products = [
     reviews: 84,
     rating: 4.7,
     images: [
-      '/images/assets/bracelet.png',
-      '/images/assets/ring.png',
-      '/images/assets/necklace.png'
+      '/images/bracelet.png',
+      '/images/ring.png',
+      '/images/necklace.png'
     ]
   },
   {
@@ -96,7 +96,7 @@ export const products = [
     name: 'Celestial Star Necklace',
     price: 1400,
     category: 'Necklaces',
-    image: '/images/assets/necklace.png',
+    image: '/images/necklace.png',
     material: 'Gold',
     tag: null,
     description: "Dazzle like the night sky with this striking star-motif necklace. Handcrafted detailing pairs with radiant gold to provide a piece that truly shines.",
@@ -109,9 +109,9 @@ export const products = [
     reviews: 21,
     rating: 4.9,
     images: [
-      '/images/assets/necklace.png',
-      '/images/assets/earrings.png',
-      '/images/assets/necklace.png'
+      '/images/necklace.png',
+      '/images/earrings.png',
+      '/images/necklace.png'
     ]
   },
   {
@@ -119,7 +119,7 @@ export const products = [
     name: 'Antique Silver Hoops',
     price: 600,
     category: 'Earrings',
-    image: '/images/assets/earrings.png',
+    image: '/images/earrings.png',
     material: 'Silver',
     tag: null,
     description: "Classic hoop earrings given a modern twist with an antiqued, textured finish. A must-have staple for any jewelry collection.",
@@ -132,9 +132,9 @@ export const products = [
     reviews: 55,
     rating: 4.6,
     images: [
-      '/images/assets/earrings.png',
-      '/images/assets/ring.png',
-      '/images/assets/bracelet.png'
+      '/images/earrings.png',
+      '/images/ring.png',
+      '/images/bracelet.png'
     ]
   }
 ];

@@ -6,7 +6,7 @@ import FeaturedProducts from '../components/home/FeaturedProducts';
 const Home = () => {
   return (
     <main className="bg-cream/20">
-      <Hero heroImage="/images/assets/hero.png" />
+      <Hero heroImage="/images/hero.png" />
       
       {/* Brand Story Section */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/3 aspect-video relative">
             <div className="absolute inset-0 bg-gold/10 blur-3xl rounded-full"></div>
-            <img src="/images/assets/necklace.png" alt="Promo" className="w-full h-full object-contain relative z-10 animate-float" />
+            <img src="/images/necklace.png" alt="Promo" className="w-full h-full object-contain relative z-10 animate-float" />
           </div>
         </div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-emerald/10 blur-[100px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
@@ -64,7 +64,7 @@ const Home = () => {
                  to={`/shop?category=${cat.toLowerCase()}`}
                  className="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer"
                >
-                  <img src={`/images/assets/${cat.toLowerCase().slice(0, -1)}.png`} alt={cat} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                  <img src={`/images/${cat.toLowerCase().slice(0, -1)}.png`} alt={cat} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-midnight/30 flex items-center justify-center group-hover:bg-midnight/10 transition-colors">
                     <h3 className="text-white text-3xl font-bold font-montserrat tracking-widest uppercase">{cat}</h3>
                   </div>
